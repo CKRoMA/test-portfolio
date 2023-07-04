@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html <?php language_attributes(); ?>> -->
+<!--коментарий-->
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta charset="<?php bloginfo('charset');?>"> -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+	<!--Подключаем шрифты-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500;600;700&display=swap"
+		rel="stylesheet">
+	<!--------------------------------------------------------------->
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+	<!--------------------------------------------------------------->
+	<link rel="stylesheet" href="css/style.css">
+	<title></title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!--xxl xl sm md lg-->
+			<div class="header__container">
+				<nav class="navbar navbar-expand-md mt-3" role="navigation">
+					<div class="container ">
+						<!-- для логотипа -->
+						<a class="navbar-brand" href="#">
+							<img src="./img/header/FOX.svg" alt="FOX.svg">
+						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+							aria-controls="navbarContent" aria-expanded="false" aria-label="Переключатель навигации">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+
+
+						<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarContent">
+							<ul class="navbar-nav mr-auto mb-2 ">
+								<li class="nav-item me-4"><a class="nav-link nav-link__header" href="index.html">Home</a></li>
+								<li class="nav-item me-4"><a class="nav-link nav-link__header nav-link__header-active"
+										href="about.html">about</a></li>
+								<li class="nav-item me-4"><a class="nav-link nav-link__header" href="service.html">service</a>
+								</li>
+								<li class="nav-item"><a class="nav-link nav-link__header" href="portfolio.html">portfolio</a>
+								</li>
+							</ul>
+
+
+							<form class="d-flex ">
+
+								<button class="btn "><a href="contact.html">contact</a></button>
+							</form>
+						</div>
+
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<section class="top__about">
+				<div class="row mb-5 top__container d-flex justify-content-between">
+					<div class="col-12 top-content">
+						<h1 class="top-title__about text-center ">
+							about
+						</h1>
+						<p class="top-about__text text-center">
+							Home / <span>About</span>
+						</p>
+					</div>
+				</div>
+
+
+				<img src="./img/header/bg/Mask Group.png" alt="Image-right.png" class="top-image__left">
+				<img src="./img/about/top/Rober Fox.png" alt="Image-right.png" class="top-about-image__center mt-5">
+
+			</section>
+			<section class="about-me-page">
+				<div class="row about-me-page__container d-flex justify-content-center justify-content-lg-between  ">
+					<div class="col-11 col-sm-8 col-lg-5 d-flex  about-me-page__image">
+						<img class="about-me-page__img " src="./img/about/about-my/Image.png" alt="Image.jpg">
+					</div>
+
+					<div class="col-11 col-sm-8 col-lg-6  mt-4 about-me-page__content">
+						<div
+							class="col-sm-12  d-flex align-items-center justify-content-md-start  justify-content-center mb-3">
+							<img src="./img/about/about-my/01.png" alt="01.png">
+							<p class="ms-3 about-me__text">about me</p>
+						</div>
+						<div class="col-12">
+							<h4 class="about-me-page__title">
+								I'm Professional Designer and Front-End Web Developer That Solve Your Problems
+							</h4>
+							<p class="about-me-page__text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<p class="about-me-page__text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit.
+							</p>
+
+						</div>
+						<div class="row mt-4">
+							<div class="col-5 col-xl-3 d-flex align-items-center mt-4">
+								<img src="./img/about/about-my/8.png" alt="8.png">
+								<p class="about-me-page__subtext ms-2 ">Year <br>
+									of experience</p>
+							</div>
+							<div class="col-5 col-xl-3 d-flex align-items-center mt-4">
+								<img src="./img/about/about-my/25.png" alt="25.png">
+								<p class="about-me-page__subtext ms-2 ">
+									Saticfied <br>
+									Customers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="my-skills">
+				<div class="my-skills__container">
+					<div class="row d-flex justify-content-center justify-content-lg-between">
+						<div class="col-11 col-md-8 col-lg-6">
+							<div
+								class="col-sm-12  d-flex align-items-center justify-content-md-start  justify-content-center mb-3">
+								<img src="./img/about/my-skills/02.png" alt="02.png">
+								<p class="ms-3 about-me__text">My Skills</p>
+							</div>
+							<p class="my-skills__text">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+								consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<button class="top-btn btn-default mt-4 mb-4">DOWNLOAD CV</button>
+						</div>
+						<div class="col-11 col-md-8 col-lg-6 mt-4 mb-5 mt-md-0 mb-md-0 ">
+							<div class="row ">
+								<div class="col d-flex flex-column">
+									<label class="my-skills__label" for="file">UI/UX Design</label>
+									<div class="progress">
+										<div class="progress-bar" id="file" role="progressbar" style="width: 90%;"
+											aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-4">
+								<div class="col d-flex flex-column">
+									<label class="my-skills__label" for="file">Front End Developer</label>
+									<div class="progress">
+										<div class="progress-bar" id="file" role="progressbar" style="width: 95%;"
+											aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-4">
+								<div class="col d-flex flex-column">
+									<label class="my-skills__label" for="file">Graphic Design</label>
+									<div class="progress">
+										<div class="progress-bar" id="file" role="progressbar" style="width: 90%;"
+											aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mt-4">
+								<div class="col d-flex flex-column">
+									<label class="my-skills__label" for="file">Product Design</label>
+									<div class="progress">
+										<div class="progress-bar" id="file" role="progressbar" style="width: 85%;"
+											aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="my-experiences">
+				<div class="my-experiences__container">
+					<div class="row">
+						<div class="col-sm-12  d-flex align-items-center   justify-content-center mb-3">
+							<img src="./img/about/My Experiences/03.png" alt="03.png">
+							<p class="ms-3 about-me__text">My Experiences</p>
+						</div>
+					</div>
+					<div class="row mt-5 d-flex justify-content-center ">
+						<div class="col-12  col-sm-6 col-lg-3  my-experiences__content-one">
+							<div class="col">
+								<img src="./img/about/My Experiences/content/linkedin01.png" alt="linkedin01.png">
+							</div>
+							<div class="row align-items-center  mt-4">
+								<div class="col-2">
+									<img src="./img/about/My Experiences/content/01.png" alt="01.png">
+								</div>
+								<div class="col-10">
+									<h3 class="my-experiences__title">Lead Web Developer</h3>
+									<p class="my-experiences__data">2016-2020</p>
+								</div>
+							</div>
+							<div class="col">
+								<p class="my-experiences__text">
+									Amet minim mollit non <br> deserunt ullamco est sit aliqua dolor do amet sint. Vuis enim
+									velit
+									ullamco
+								</p>
+							</div>
+						</div>
+
+						<div class=" col-sm-6 col-lg-3 my-experiences__content-two">
+							<div class="col">
+								<img src="./img/about/My Experiences/content/yahoo02.png" alt="linkedin02.png">
+							</div>
+							<div class="row align-items-center mt-4">
+								<div class="col-2">
+									<img src="./img/about/My Experiences/content/02.png" alt="01.png">
+								</div>
+								<div class="col-10">
+									<h3 class="my-experiences__title">Lead Web Developer</h3>
+									<p class="my-experiences__data">2016-2020</p>
+								</div>
+							</div>
+							<div class="col">
+								<p class="my-experiences__text">
+									Amet minim mollit non <br> deserunt ullamco est sit aliqua dolor do amet sint. Vuis enim
+									velit
+									ullamco
+								</p>
+							</div>
+						</div>
+
+						<div class=" col-sm-6 col-lg-3 my-experiences__content-three">
+							<div class="col">
+								<img src="./img/about/My Experiences/content/zendesk03.png" alt="linkedin03.png">
+							</div>
+							<div class="row align-items-center mt-4">
+								<div class="col-2">
+									<img src="./img/about/My Experiences/content/03.png" alt="01.png">
+								</div>
+								<div class="col-10">
+									<h3 class="my-experiences__title">Lead Web Developer</h3>
+									<p class="my-experiences__data">2016-2020</p>
+								</div>
+							</div>
+							<div class="col">
+								<p class="my-experiences__text">
+									Amet minim mollit non <br> deserunt ullamco est sit aliqua dolor do amet sint. Vuis enim
+									velit
+									ullamco
+								</p>
+							</div>
+						</div>
+
+						<div class=" col-sm-6 col-lg-3 my-experiences__content-four">
+							<div class="col">
+								<img src="./img/about/My Experiences/content/webflow04.png" alt="linkedin04.png">
+							</div>
+							<div class="row align-items-center mt-4">
+								<div class="col-2">
+									<img src="./img/about/My Experiences/content/04.png" alt="01.png">
+								</div>
+								<div class="col-10">
+									<h3 class="my-experiences__title">Lead Web Developer</h3>
+									<p class="my-experiences__data">2016-2020</p>
+								</div>
+							</div>
+							<div class="col">
+								<p class="my-experiences__text">
+									Amet minim mollit non <br> deserunt ullamco est sit aliqua dolor do amet sint. Vuis enim
+									velit
+									ullamco
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="label">
+				<div class="label__container">
+					<div class="row text-center">
+						<div class="col-12 d-flex align-items-center justify-content-center mb-3 mt-5">
+							<img src="./img/main/testimonial/04.png" alt="02.png">
+							<p class="ms-4 about-me__text">MY PARTNERS</p>
+						</div>
+					</div>
+					<div class="row pt-4 ">
+
+						<div class="col pt-4 pb-5 me-3">
+							<img src="./img/main/label/Group01.png" alt="Group01.png" class="label__image">
+						</div>
+
+						<div class="col pt-4 pb-5 me-3">
+							<img src="./img/main/label/slack02.png" alt="Group02.png" class="label__image">
+						</div>
+						<div class="col pt-4 pb-5 me-3">
+							<img src="./img/main/label/Vector03.png" alt="Group03.png" class="label__image">
+						</div>
+						<div class="col pt-4 pb-5 me-3">
+							<img src="./img/main/label/Vector04.png" alt="Group04.png" class="label__image">
+						</div>
+						<div class="col pt-4 pb-5">
+							<img src="./img/main/label/Vector05.png" alt="Group05.png" class="label__image">
+						</div>
+					</div>
+
+
+
+					<div class="row pb-5 mb-5 d-flex justify-content-center gap-4">
+
+						<div class="col pt-4 pb-5 ">
+							<img src="./img/about/chargebee01.png" alt="Group01.png" class="label__image">
+						</div>
+
+						<div class="col pt-4 pb-5 ">
+							<img src="./img/about/udemy02.png" alt="Group02.png" class="label__image">
+						</div>
+						<div class="col pt-4 pb-5 ">
+							<img src="./img/about/instagram03.png" alt="Group03.png" class="label__image">
+						</div>
+						<div class="col pt-4 pb-5">
+							<img src="./img/about/mapbox04.png" alt="Group04.png" class="label__image">
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="together">
+				<div class="together__container">
+					<div class="row text-center together__content">
+						<div class="col-12">
+							<h3 class="together__title">
+								let’s work together on Your Next Project
+							</h3>
+						</div>
+						<div class="col-12">
+							<button class="top-btn btn-default">HIRE ME NOW</button>
+						</div>
+						<div class="col-12">
+							<div class="together__download">
+								<img src="./img/main/together/Icon.svg" alt="Icon.svg">
+								<a href="#">Download CV</a>
+
+							</div>
+						</div>
+					</div>
+					<img class="together__element01" src="./img/main/together/Element01.png" alt="Element01.png">
+					<img class="together__element02" src="./img/main/together/Element02.png" alt="Element02.png">
+				</div>
+
+			</section>
+		</main>
+		<footer class="footer ">
+			<div class="footer__container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h3 class="footer__copiright">
+							Copyright <span>Banana Studio</span> 2022 All Right Reserved
+						</h3>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--подключаем jquery-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<!--Подключаем  js-boodstrap  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+		crossorigin="anonymous"></script>
+	<!--Подключаем  js  -->
+	<script src="js/script.js"></script>
+	<!--------------------------------------------->
+</body>
